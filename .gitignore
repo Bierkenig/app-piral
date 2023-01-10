@@ -1,4 +1,6 @@
+/app-pilet/node_modules/
+/app-piral/node_modules/
+.idea
 .DS_Store
-node_modules
-/dist
-/.idea
+/app-piral/dist/
+/app-pilet/dist/
