@@ -1,6 +1,15 @@
-/app-pilet/node_modules/
 /app-piral/node_modules/
 .idea
 .DS_Store
 /app-piral/dist/
-/app-pilet/dist/
+/basket-pilet/node_modules/
+/layout-pilet/node_modules/
+/recommandations-pilet/node_modules/
+/recommandations-pilet/package-lock.json
+/basket-pilet/package-lock.json
+/layout-pilet/package-lock.json
+
+
+
+
+

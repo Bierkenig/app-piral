@@ -11,7 +11,7 @@ export function setup(app: PiletApi) {
     autoClose: 2000,
   });
   app.registerMenu(() => <Link to="/page">Page</Link>);
-  app.registerTile(() => <div>Welcome to Benefikt!</div>, {
+  app.registerTile(() => <div>Welcome to Piral!</div>, {
     initialColumns: 2,
     initialRows: 2,
   });
