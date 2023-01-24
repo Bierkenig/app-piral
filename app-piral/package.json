@@ -7,12 +7,7 @@
   ],
   "dependencies": {
     "piral": "0.15.4",
-    "piral-base": "0.15.4",
-    "piral-core": "0.15.4",
-    "react": "^18",
-    "react-dom": "^18",
-    "react-router": "^5",
-    "react-router-dom": "^5"
+    "piral-core": "0.15.4"
   },
   "scripts": {
     "start": "piral debug",
