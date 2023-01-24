@@ -1,8 +1,8 @@
 import * as React from 'react';
 import type { PiletApi } from 'app-piral';
 
-const startPage = require('./StartPage')
+const productPage = require('./productPage')
 
 export function setup(app: PiletApi) {
-  app.registerPage('/', startPage);
+  app.registerPage('/', productPage);
 }

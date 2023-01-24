@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-const StartPage: React.FC<any> = ({ piral }) => (
+const ProductPage: React.FC<any> = ({ piral }) => (
     <div>
         <h3>Juice Shop V2</h3>
 
@@ -8,4 +8,4 @@ const StartPage: React.FC<any> = ({ piral }) => (
     </div>
 );
 
-export default StartPage;
+export default ProductPage;
