@@ -1,0 +1,15 @@
+/team-red/dist/
+/team-red/node_modules/
+/team-blue/dist/
+/team-blue/node_modules/
+/team-green/dist/
+/team-green/node_modules/
+/app-shell/dist/
+/app-shell/node_modules/
+
+.idea
+
+/team-green/package-lock.json
+/team-red/package-lock.json
+/team-blue/package-lock.json
+/app-shell/package-lock.json
