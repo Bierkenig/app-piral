@@ -1,5 +1,5 @@
 export const product = {
-  name: 'Car',
+  name: '',
   variants: [
     {
       sku: 'bugatti',
