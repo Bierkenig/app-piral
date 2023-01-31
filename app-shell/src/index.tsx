@@ -3,7 +3,12 @@ import { render } from 'react-dom';
 import { createPiral, Piral, SetRedirect } from 'piral';
 import { createContainersApi } from 'piral-containers';
 
-const feedUrl = 'http://localhost:3000/api/v1/pilet';
+const feedUrl =
+  process.env.NODE_ENV === 'production'
+    ? 'https://feed.piral.io/api/v1/pilet/mife-demo'
+    : 'http://localhost:3000/api/v1/pilet';
+
+console.log(process.env.NODE_ENV)
 
 const piral = createPiral({
   requestPilets() {
@@ -15,7 +20,6 @@ const piral = createPiral({
 });
 
 const app = (
-  // @ts-ignore
   <Piral instance={piral}>
     <SetRedirect from="/" to="/products" />
   </Piral>
