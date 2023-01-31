@@ -33,6 +33,7 @@ export const ProductPage: React.FC<ProductPageProps> = ({ name, history, BasketI
         <div id="options">
           {product.variants.map((variant) => (
             <button
+              id="thumb"
               key={variant.sku}
               className={name === variant.sku ? 'active' : ''}
               type="button"

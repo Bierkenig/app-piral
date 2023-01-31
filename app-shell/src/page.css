@@ -221,3 +221,7 @@ dd {
   outline: 3px dashed royalblue;
   padding: 5px;
 }
+
+#thumb {
+  width: 150px;
+}
