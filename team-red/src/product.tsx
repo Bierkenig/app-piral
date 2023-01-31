@@ -12,7 +12,7 @@ export const product = {
     {
       sku: 'rolls',
       color: 'green',
-      name: 'Rolls Royce',
+      name: 'Rolls Royce Mansory Edition',
       image: require('./images/golden_car.png'),
       thumb: require('./images/golden_car.png'),
       price: '1.500.000,00 €',
